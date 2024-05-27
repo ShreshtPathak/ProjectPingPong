@@ -35,6 +35,9 @@ function setup(){
 	poseNet.on('pose', gotPoses);
 }
 
+function modelLoaded() {
+  console.log("modelLoaded");
+}
 
 function draw(){
 
